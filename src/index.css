@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-command text-white font-sans antialiased overflow-x-hidden;
+  }
+  
+  /* Custom Scrollbar for that high-tech feel */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-command-dark;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-jungle rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-jungle-light;
+  }
+
+  ::selection {
+    @apply bg-amber-warning text-command-dark;
+  }
+}
+
+/* Leaflet Map Styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background-color: #0F172A !important; /* Match command center background */
+  z-index: 0; 
+}
+
+/* Ensure Framer Motion wrappers don't break layout */
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* --- Jurassic Dark Mode Popup Styles --- */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-color: #1c1917 !important; /* jurassic-lab */
+  border: 1px solid #84cc16; /* jurassic-neon */
+  color: #fff !important;
+  box-shadow: 0 0 15px rgba(132, 204, 22, 0.3); /* Neon glow */
+  border-radius: 4px;
+}
+
+.leaflet-popup-content {
+  margin: 10px 14px;
+}
+
+.leaflet-popup-tip {
+  border: none;
+  border-right: 1px solid #84cc16;
+  border-bottom: 1px solid #84cc16;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: #84cc16 !important;
+  font: 16px/14px Tahoma, Verdana, sans-serif;
+  top: 4px;
+  right: 4px;
+}
+
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: #fff !important;
+}
+
+/* Cinematic Video Background Animation */
+@keyframes cinematicZoom {
+  0% { transform: scale(1.0); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1.0); }
+}
+
+.cinematic-zoom {
+  animation: cinematicZoom 20s ease-in-out infinite;
+}

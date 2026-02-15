@@ -1,0 +1,432 @@
+[
+  {
+    "id": "titan-valley",
+    "name": "TITAN VALLEY EXPEDITION",
+    "subtitle": "Explore the Valley of Giants",
+    "anchorDinoId": "argentinosaurus",
+    "theme": "green",
+    "vehicle": {
+      "name": "Gyrosphere",
+      "icon": "🔮",
+      "description": "Self-driving glass sphere — roam freely among the largest dinosaurs ever"
+    },
+    "description": "Journey through the 'Heart of Isla Nublar'. Guests travel freely among the most colossal dinosaurs in Earth's history. Feel the ground tremble beneath your feet.",
+    "specimensIncluded": [
+      {
+        "dinoId": "argentinosaurus",
+        "role": "star",
+        "highlight": "Close Encounter — approach within meters"
+      },
+      {
+        "dinoId": "triceratops",
+        "role": "included",
+        "highlight": "Observe communal feeding grounds"
+      }
+    ],
+    "dashboard": [
+      { "label": "Seismic Activity", "value": "HIGH", "color": "amber" },
+      { "label": "Safety Level", "value": "99.8%", "color": "green" },
+      { "label": "Herd Size", "value": "12 Specimens", "color": "blue" },
+      { "label": "Zone Temp", "value": "34°C", "color": "red" }
+    ],
+    "warningMessage": "You are registering for the Titan Valley Expedition. This package includes access to the Central Grasslands zone.",
+    "ageRestriction": null,
+    "familyFriendly": false,
+    "price": 349,
+    "duration": "3 hours",
+    "maxGroupSize": 6,
+    "comparisonStats": { "thrill": 5, "safety": 9, "duration": 7, "value": 8, "exclusivity": 5 },
+    "routePoints": [
+      { "x": 20, "y": 70, "label": "Departure" },
+      { "x": 40, "y": 45, "label": "Argentinosaurus Zone" },
+      { "x": 65, "y": 55, "label": "Triceratops Feeding" },
+      { "x": 85, "y": 35, "label": "Riverside Overlook" },
+      { "x": 95, "y": 70, "label": "Return Base" }
+    ]
+  },
+  {
+    "id": "amber-canopy",
+    "name": "AMBER CANOPY ASCENT",
+    "subtitle": "Conquer the Amber Sky Dome",
+    "anchorDinoId": "pterosaur",
+    "theme": "purple",
+    "vehicle": {
+      "name": "Aerial Gondola",
+      "icon": "🚠",
+      "description": "Armored cable car — glide through mist and observe aerial predators"
+    },
+    "description": "Take an elevator 300m up to enter the glass-enclosed Aviary. Walk across suspended bridges through the mist and observe the sky predators right beside you.",
+    "specimensIncluded": [
+      {
+        "dinoId": "pterosaur",
+        "role": "star",
+        "highlight": "Observe them perching on cliff faces"
+      },
+      {
+        "dinoId": "pteranodon",
+        "role": "included",
+        "highlight": "Species gliding and soaring all around"
+      },
+      {
+        "dinoId": "mosasaurus",
+        "role": "bonus",
+        "highlight": "Lagoon sighting from above (Bonus View)"
+      }
+    ],
+    "dashboard": [
+      { "label": "Wind Shear", "value": "45 km/h", "color": "amber" },
+      { "label": "Glass Integrity", "value": "100%", "color": "green" },
+      { "label": "Visibility", "value": "Clear", "color": "blue" },
+      { "label": "Altitude", "value": "300m", "color": "red" }
+    ],
+    "warningMessage": "WARNING: You are requesting access to the Aviary Sector. A signed liability waiver is required before ascent.",
+    "ageRestriction": 12,
+    "familyFriendly": false,
+    "price": 399,
+    "duration": "2.5 hours",
+    "maxGroupSize": 4,
+    "comparisonStats": { "thrill": 7, "safety": 6, "duration": 6, "value": 7, "exclusivity": 8 },
+    "routePoints": [
+      { "x": 15, "y": 80, "label": "Ground Station" },
+      { "x": 30, "y": 50, "label": "Ascent Begin" },
+      { "x": 50, "y": 25, "label": "Aviary Entry" },
+      { "x": 70, "y": 20, "label": "Pterosaur Cliff" },
+      { "x": 85, "y": 40, "label": "Sky Bridge" },
+      { "x": 95, "y": 75, "label": "Descent" }
+    ]
+  },
+  {
+    "id": "apex-predator",
+    "name": "APEX PREDATOR VIP NIGHT TOUR",
+    "subtitle": "Night Tour: The Apex Predator",
+    "anchorDinoId": "tyrannosaurus",
+    "theme": "red",
+    "vehicle": {
+      "name": "Armored Mobile Cage",
+      "icon": "🏗️",
+      "description": "Steel-armored cage vehicle — observe T-Rex at lethal proximity"
+    },
+    "description": "A trip reserved for the bravest. Enter 'Zone 9' after sunset to witness T-Rex feeding time. Absolute silence is required. Any noise disturbance may provoke the subject.",
+    "specimensIncluded": [
+      {
+        "dinoId": "tyrannosaurus",
+        "role": "star",
+        "highlight": "Witness the hunt & nighttime feeding"
+      },
+      {
+        "dinoId": null,
+        "customName": "Compsognathus Pack",
+        "customIcon": "🦎",
+        "role": "included",
+        "highlight": "Compy swarm cleaning up leftovers — deeply unsettling"
+      },
+      {
+        "dinoId": null,
+        "customName": "Flare Gun Experience",
+        "customIcon": "🔫",
+        "role": "bonus",
+        "highlight": "Fire simulated flares to lure T-Rex (Interactive)"
+      }
+    ],
+    "dashboard": [
+      { "label": "Hunger Level", "value": "CRITICAL", "color": "red" },
+      { "label": "Fence Voltage", "value": "50,000V", "color": "amber" },
+      { "label": "Decibel Meter", "value": "< 30 dB", "color": "green" },
+      { "label": "Night Vision", "value": "Active", "color": "blue" }
+    ],
+    "warningMessage": "MAXIMUM THREAT LEVEL: You must sign a Life Liability Waiver to join this tour. InGen Corporation disclaims all responsibility once you enter Zone 9.",
+    "ageRestriction": 18,
+    "familyFriendly": false,
+    "price": 599,
+    "duration": "2 hours",
+    "maxGroupSize": 4,
+    "comparisonStats": { "thrill": 10, "safety": 2, "duration": 5, "value": 6, "exclusivity": 10 },
+    "routePoints": [
+      { "x": 10, "y": 80, "label": "Bunker Gate" },
+      { "x": 25, "y": 50, "label": "Perimeter Check" },
+      { "x": 50, "y": 30, "label": "Zone 9 Entry" },
+      { "x": 70, "y": 25, "label": "Feeding Ground" },
+      { "x": 85, "y": 50, "label": "Emergency Exit" },
+      { "x": 95, "y": 80, "label": "Extraction" }
+    ]
+  },
+  {
+    "id": "cretaceous-safari",
+    "name": "CRETACEOUS SAFARI: THE HORNED GIANTS",
+    "subtitle": "Cretaceous Safari: The Horned Giants",
+    "anchorDinoId": "triceratops",
+    "theme": "emerald",
+    "vehicle": {
+      "name": "Open-Top Cruiser",
+      "icon": "🚙",
+      "description": "Open-roof Jeep — breathe the primeval forest air and approach herbivores"
+    },
+    "description": "Drive through dense primeval forest to locate Triceratops nesting grounds. A rare opportunity to witness their defensive formation against predators.",
+    "specimensIncluded": [
+      {
+        "dinoId": "triceratops",
+        "role": "star",
+        "highlight": "Close approach — hand-feeding permitted"
+      },
+      {
+        "dinoId": null,
+        "customName": "Parasaurolophus",
+        "customIcon": "🦕",
+        "role": "included",
+        "highlight": "Long-crested species that warns of danger with trumpet calls"
+      },
+      {
+        "dinoId": null,
+        "customName": "Baby Dino Nursery",
+        "customIcon": "🥚",
+        "role": "bonus",
+        "highlight": "Hatchling zone & nesting grounds viewing"
+      }
+    ],
+    "dashboard": [
+      { "label": "Herd Stress", "value": "LOW", "color": "green" },
+      { "label": "Migration Path", "value": "Tracking", "color": "blue" },
+      { "label": "Bio-Scan", "value": "3 Nests Found", "color": "amber" },
+      { "label": "Zone Temp", "value": "28°C", "color": "green" }
+    ],
+    "warningMessage": "Family-friendly tour! High-safety zone. Guests are permitted close approach and hand-feeding of Triceratops under InGen staff supervision.",
+    "ageRestriction": null,
+    "familyFriendly": true,
+    "price": 249,
+    "duration": "4 hours",
+    "maxGroupSize": 8,
+    "comparisonStats": { "thrill": 3, "safety": 10, "duration": 9, "value": 9, "exclusivity": 3 },
+    "routePoints": [
+      { "x": 10, "y": 60, "label": "Safari Base" },
+      { "x": 30, "y": 40, "label": "Forest Entry" },
+      { "x": 50, "y": 30, "label": "Triceratops Herd" },
+      { "x": 65, "y": 50, "label": "Nesting Ground" },
+      { "x": 80, "y": 35, "label": "Feeding Station" },
+      { "x": 95, "y": 60, "label": "Return Trail" }
+    ]
+  },
+  {
+    "id": "coastal-cliffs",
+    "name": "COASTAL CLIFFS SKY-TRAM",
+    "subtitle": "The Coastal Cliffs Sky-Tram",
+    "anchorDinoId": "pteranodon",
+    "theme": "cyan",
+    "vehicle": {
+      "name": "Suspended Gondola 360°",
+      "icon": "🚡",
+      "description": "360-degree suspended cabin — hovering between the abyss and the ocean"
+    },
+    "description": "Hang suspended between cliff edges and the open ocean. Watch Pteranodon dive from mountaintops into the water at 100km/h to hunt prey. Experience what it feels like to be 'prey' in mid-air.",
+    "specimensIncluded": [
+      {
+        "dinoId": "pteranodon",
+        "role": "star",
+        "highlight": "Spectacular cliff-dive fishing from the rock face"
+      },
+      {
+        "dinoId": null,
+        "customName": "Ancient Marine Reptiles",
+        "customIcon": "🐉",
+        "role": "bonus",
+        "highlight": "Shadows of ancient sea monsters beneath the surface"
+      },
+      {
+        "dinoId": null,
+        "customName": "Cliff Nesting Grounds",
+        "customIcon": "🪺",
+        "role": "included",
+        "highlight": "Spot cliff-side nests through specialized binoculars"
+      }
+    ],
+    "dashboard": [
+      { "label": "Wind Velocity", "value": "HIGH", "color": "amber" },
+      { "label": "Thermal Updrafts", "value": "Active", "color": "red" },
+      { "label": "Cable Tension", "value": "98%", "color": "green" },
+      { "label": "Altitude", "value": "450m", "color": "blue" }
+    ],
+    "warningMessage": "Cabin sway warning: High wind speeds may cause cabin oscillation. Guests with acrophobia should carefully consider. Hold the handrails at all times.",
+    "ageRestriction": 10,
+    "familyFriendly": false,
+    "price": 329,
+    "duration": "2 hours",
+    "maxGroupSize": 6,
+    "ctaLabel": "REQUEST SKY-TRAM CLEARANCE",
+    "comparisonStats": { "thrill": 8, "safety": 5, "duration": 5, "value": 7, "exclusivity": 7 },
+    "routePoints": [
+      { "x": 10, "y": 75, "label": "Cliff Station" },
+      { "x": 25, "y": 40, "label": "Ascent Phase" },
+      { "x": 45, "y": 20, "label": "Nesting Cliffs" },
+      { "x": 65, "y": 30, "label": "Dive Watch Point" },
+      { "x": 80, "y": 50, "label": "Ocean View" },
+      { "x": 95, "y": 75, "label": "Descent" }
+    ]
+  },
+  {
+    "id": "primeval-river",
+    "name": "PRIMEVAL RIVER EXPEDITION",
+    "subtitle": "Exploring the Primeval River",
+    "anchorDinoId": "spinosaurus",
+    "theme": "swamp",
+    "vehicle": {
+      "name": "Armored Hydrofoil",
+      "icon": "🚤",
+      "description": "Armored hovercraft — gliding over foggy swamp waters"
+    },
+    "description": "Travel upstream into the dense fog-shrouded swamplands. Spinosaurus doesn't just hunt on land — it attacks from beneath the water. Keep all limbs inside the vessel at all times.",
+    "specimensIncluded": [
+      {
+        "dinoId": "spinosaurus",
+        "role": "star",
+        "highlight": "The moment its massive dorsal sail breaks the surface"
+      },
+      {
+        "dinoId": null,
+        "customName": "Baryonyx",
+        "customIcon": "🦎",
+        "role": "included",
+        "highlight": "Smaller fish-eating dinosaur along the riverbank"
+      },
+      {
+        "dinoId": null,
+        "customName": "Kaprosuchus",
+        "customIcon": "🐊",
+        "role": "bonus",
+        "highlight": "Boar croc lurking in the reeds — extremely aggressive"
+      }
+    ],
+    "dashboard": [
+      { "label": "Sonar Depth", "value": "CONTACT", "color": "red" },
+      { "label": "Water Turbidity", "value": "87%", "color": "amber" },
+      { "label": "Hull Integrity", "value": "96%", "color": "green" },
+      { "label": "Fog Density", "value": "Dense", "color": "blue" }
+    ],
+    "warningMessage": "MAXIMUM DANGER: Spinosaurus is a semi-aquatic creature capable of attacking from underwater. Keep all limbs inside the vessel at all times. Do not touch the water surface. InGen disclaims all liability if guests violate regulations.",
+    "ageRestriction": 16,
+    "familyFriendly": false,
+    "price": 499,
+    "duration": "2.5 hours",
+    "maxGroupSize": 4,
+    "ctaLabel": "INITIATE RIVER LAUNCH",
+    "comparisonStats": { "thrill": 9, "safety": 3, "duration": 6, "value": 6, "exclusivity": 9 },
+    "routePoints": [
+      { "x": 10, "y": 70, "label": "River Dock" },
+      { "x": 25, "y": 55, "label": "Fog Wall" },
+      { "x": 40, "y": 35, "label": "Baryonyx Bank" },
+      { "x": 55, "y": 25, "label": "Spino Territory" },
+      { "x": 75, "y": 40, "label": "Deep Water Zone" },
+      { "x": 90, "y": 65, "label": "Emergency Dock" }
+    ]
+  },
+  {
+    "id": "abyssal-grace",
+    "name": "THE ABYSSAL GRACE VOYAGE",
+    "subtitle": "Journey Into the Abyss",
+    "anchorDinoId": "plesiosaurus",
+    "theme": "deep-ocean",
+    "vehicle": {
+      "name": "Titan-Glass Submarine",
+      "icon": "🔵",
+      "description": "Reinforced glass submarine — 360-degree underwater panoramic view"
+    },
+    "description": "Descend 50m into underwater caverns beneath the island. Plesiosaurus is a curious species that often swims close to the submarine to interact. A visually stunning experience with bioluminescent coral and ancient fish species.",
+    "specimensIncluded": [
+      {
+        "dinoId": "plesiosaurus",
+        "role": "star",
+        "highlight": "Graceful pod swimming — performing underwater 'flight'"
+      },
+      {
+        "dinoId": null,
+        "customName": "Ammonites",
+        "customIcon": "🐚",
+        "role": "included",
+        "highlight": "Giant nautilus species drifting all around"
+      },
+      {
+        "dinoId": null,
+        "customName": "Bioluminescent Caves",
+        "customIcon": "✨",
+        "role": "bonus",
+        "highlight": "Glowing caves — breathtaking visual effects"
+      }
+    ],
+    "dashboard": [
+      { "label": "Oxygen Levels", "value": "98%", "color": "green" },
+      { "label": "Depth", "value": "-45m", "color": "blue" },
+      { "label": "Pressure Hull", "value": "Nominal", "color": "green" },
+      { "label": "Visibility", "value": "Crystal", "color": "blue" }
+    ],
+    "warningMessage": "Safe aquatic experience. Cabin pressure remains stable at all times. Guests may relax and enjoy the stunning deep-sea scenery. Note: do not tap on the glass when Plesiosaurus approaches.",
+    "ageRestriction": null,
+    "familyFriendly": true,
+    "price": 379,
+    "duration": "3 hours",
+    "maxGroupSize": 6,
+    "ctaLabel": "DIVE INITIATION",
+    "comparisonStats": { "thrill": 4, "safety": 9, "duration": 7, "value": 8, "exclusivity": 6 },
+    "routePoints": [
+      { "x": 10, "y": 30, "label": "Surface Dock" },
+      { "x": 25, "y": 50, "label": "Descent Phase" },
+      { "x": 40, "y": 70, "label": "Coral Garden" },
+      { "x": 55, "y": 80, "label": "Plesio Territory" },
+      { "x": 75, "y": 65, "label": "Bio-Cave" },
+      { "x": 90, "y": 35, "label": "Ascent" }
+    ]
+  },
+  {
+    "id": "leviathan-frenzy",
+    "name": "THE LEVIATHAN FEEDING FRENZY",
+    "subtitle": "The Leviathan's Fury",
+    "anchorDinoId": "mosasaurus",
+    "theme": "leviathan",
+    "vehicle": {
+      "name": "Submersible Observatory",
+      "icon": "⚓",
+      "description": "Semi-submerged observation platform — rapid retraction in emergencies"
+    },
+    "description": "VIP seating at the 'Splash Zone'. Witness a 13,000 PSI bite force as Mosasaurus launches from the water to devour live bait (Great White Shark). Warning: You WILL get soaked. Emergency barrier systems are on standby.",
+    "specimensIncluded": [
+      {
+        "dinoId": "mosasaurus",
+        "role": "star",
+        "highlight": "The iconic feeding lunge — 13,000 PSI bite force"
+      },
+      {
+        "dinoId": null,
+        "customName": "Great White Shark",
+        "customIcon": "🦈",
+        "role": "included",
+        "highlight": "Live bait — poor thing"
+      },
+      {
+        "dinoId": null,
+        "customName": "Tylosaurus",
+        "customIcon": "🐲",
+        "role": "bonus",
+        "highlight": "Surprise guest — occasionally spotted in distant waters"
+      }
+    ],
+    "dashboard": [
+      { "label": "Water Displacement", "value": "TSUNAMI", "color": "red" },
+      { "label": "Fence Voltage", "value": "120,000V", "color": "amber" },
+      { "label": "Target Lock", "value": "LOCKED", "color": "red" },
+      { "label": "Splash Radius", "value": "25m", "color": "blue" }
+    ],
+    "warningMessage": "SPLASH ZONE WARNING: You WILL be completely soaked. Electronic devices may be damaged. InGen provides free waterproof bags but accepts NO liability for any damages. Bite force 13,000 PSI — maintain safe distance.",
+    "ageRestriction": 14,
+    "familyFriendly": false,
+    "shakeButton": true,
+    "price": 449,
+    "duration": "1.5 hours",
+    "maxGroupSize": 8,
+    "ctaLabel": "ENTER SPLASH ZONE",
+    "comparisonStats": { "thrill": 10, "safety": 4, "duration": 3, "value": 7, "exclusivity": 8 },
+    "routePoints": [
+      { "x": 15, "y": 40, "label": "VIP Dock" },
+      { "x": 35, "y": 55, "label": "Observation Deck" },
+      { "x": 55, "y": 35, "label": "Splash Zone" },
+      { "x": 75, "y": 50, "label": "Feeding Point" },
+      { "x": 90, "y": 40, "label": "Safe Retreat" }
+    ]
+  }
+]
